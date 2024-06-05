@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+body{
+background-image:url('./images/bg2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        background-size: cover;
+}
+.col-md-6{
+   
+    border: 8px solid rgb(0, 0, 0);
+    margin-top: 150px !important;
+    padding: 30px;
+    border-radius: 22px;
+}
+.col-md-6:hover{
+    cursor: pointer;
+    
+
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bolder !important;
+    color: rgb(3, 3, 3) ;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 50px;
+    font-weight: bolder !important;
+        color: rgb(3, 3, 3);
+}
+button{
+    margin: 15px !important;
+    border: 3px solid rgb(31, 30, 30) !important;
+    border-radius: 5px !important;
+
+}
+button:hover{
+    font-weight: bolder;
+}
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+ color: #070707 !important;
+ font-weight: 600;
+}
+.btn-danger,
+.btn-danger:active,
+.btn-danger:visited {
+    color: #070707 !important;
+    font-weight: 600;
+}
+.btn-success,
+.btn-success:active,
+.btn-success:visited {
+    color: #070707 !important;
+    font-weight: 600;
+}
+h6{
+    color: rgb(39, 39, 39);
+}
